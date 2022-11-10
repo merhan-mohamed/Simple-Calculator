@@ -1,0 +1,85 @@
+body
+{
+    background-color: teal;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.screen
+{
+    background-color: grey;
+    width: 100%;
+    cursor: default;
+    border:solid black 2px;
+    color: white;
+    font-size: medium;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input[type='button']:hover
+{
+    background-color: whitesmoke;
+}
+input[type='button']:active
+{
+    background-color: orangered;
+}
+.operator,
+.decimal,
+.clear,
+.equal
+{
+    color: black;
+    border:solid black 2px;
+    width:100%;
+    cursor: pointer;
+    height: 39px;
+}
+.number
+{
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.operator
+{
+    background-color: orange;
+}
+.decimal
+{
+    background-color: lightblue;
+}
+.clear
+{
+    background-color: lightsalmon;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.equal
+{
+    background-color: lightgreen;
+}
+.container
+{
+    background-color: white;
+    padding: 15px;
+    color:black;
+    border: 2px solid black;
+    padding: 15px;
+    align-self: center;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 10px;
+    border-bottom: 5px 10px 20px black;
+}
+table
+{
+    width:100%;
+}
+   
